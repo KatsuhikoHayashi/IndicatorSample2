@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func pressOn(sender: UIButton) {
-        SVProgressHUD.setDefaultMaskType(SVProgressHUDMaskType.Black)
+        SVProgressHUD.setDefaultMaskType(SVProgressHUDMaskType.None)
         SVProgressHUD.showWithStatus("loading...")
     }
     
