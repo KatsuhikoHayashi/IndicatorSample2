@@ -12,6 +12,10 @@
 		A8747DCA1BFB3BD80072E094 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8747DC81BFB3BD80072E094 /* Main.storyboard */; };
 		A8747DCC1BFB3BD80072E094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8747DCB1BFB3BD80072E094 /* Assets.xcassets */; };
 		A8747DCF1BFB3BD90072E094 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8747DCD1BFB3BD90072E094 /* LaunchScreen.storyboard */; };
+		A8747DE11BFB3CE10072E094 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8747DDA1BFB3CE10072E094 /* SVIndefiniteAnimatedView.m */; };
+		A8747DE21BFB3CE10072E094 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A8747DDC1BFB3CE10072E094 /* SVProgressHUD.bundle */; };
+		A8747DE31BFB3CE10072E094 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A8747DDE1BFB3CE10072E094 /* SVProgressHUD.m */; };
+		A8747DE41BFB3CE10072E094 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A8747DE01BFB3CE10072E094 /* SVRadialGradientLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,15 @@
 		A8747DCB1BFB3BD80072E094 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8747DCE1BFB3BD90072E094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8747DD01BFB3BD90072E094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8747DD91BFB3CE10072E094 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		A8747DDA1BFB3CE10072E094 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		A8747DDB1BFB3CE10072E094 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		A8747DDC1BFB3CE10072E094 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		A8747DDD1BFB3CE10072E094 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		A8747DDE1BFB3CE10072E094 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		A8747DDF1BFB3CE10072E094 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		A8747DE01BFB3CE10072E094 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		A8747DE51BFB3F130072E094 /* IndicatorSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IndicatorSample-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,8 +51,10 @@
 		A8747DB81BFB3BD80072E094 = {
 			isa = PBXGroup;
 			children = (
+				A8747DE51BFB3F130072E094 /* IndicatorSample-Bridging-Header.h */,
 				A8747DC31BFB3BD80072E094 /* IndicatorSample */,
 				A8747DC21BFB3BD80072E094 /* Products */,
+				A8747DD81BFB3CE10072E094 /* SVProgressHUD */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +77,21 @@
 				A8747DD01BFB3BD90072E094 /* Info.plist */,
 			);
 			path = IndicatorSample;
+			sourceTree = "<group>";
+		};
+		A8747DD81BFB3CE10072E094 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				A8747DD91BFB3CE10072E094 /* SVIndefiniteAnimatedView.h */,
+				A8747DDA1BFB3CE10072E094 /* SVIndefiniteAnimatedView.m */,
+				A8747DDB1BFB3CE10072E094 /* SVProgressHUD-Prefix.pch */,
+				A8747DDC1BFB3CE10072E094 /* SVProgressHUD.bundle */,
+				A8747DDD1BFB3CE10072E094 /* SVProgressHUD.h */,
+				A8747DDE1BFB3CE10072E094 /* SVProgressHUD.m */,
+				A8747DDF1BFB3CE10072E094 /* SVRadialGradientLayer.h */,
+				A8747DE01BFB3CE10072E094 /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +155,7 @@
 				A8747DCF1BFB3BD90072E094 /* LaunchScreen.storyboard in Resources */,
 				A8747DCC1BFB3BD80072E094 /* Assets.xcassets in Resources */,
 				A8747DCA1BFB3BD80072E094 /* Main.storyboard in Resources */,
+				A8747DE21BFB3CE10072E094 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +167,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8747DC71BFB3BD80072E094 /* ViewController.swift in Sources */,
+				A8747DE31BFB3CE10072E094 /* SVProgressHUD.m in Sources */,
 				A8747DC51BFB3BD80072E094 /* AppDelegate.swift in Sources */,
+				A8747DE11BFB3CE10072E094 /* SVIndefiniteAnimatedView.m in Sources */,
+				A8747DE41BFB3CE10072E094 /* SVRadialGradientLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +285,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Hayashidesu.IndicatorSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IndicatorSample-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -262,6 +297,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Hayashidesu.IndicatorSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IndicatorSample-Bridging-Header.h";
 			};
 			name = Release;
 		};

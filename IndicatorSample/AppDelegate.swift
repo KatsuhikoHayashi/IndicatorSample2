@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  IndicatorSample
 //
-//  Created by 林克彦 on 2015/11/17.
+//  Created by Hayashidesu. on 2015/11/17.
 //  Copyright © 2015年 Hayashidesu. All rights reserved.
 //
 
